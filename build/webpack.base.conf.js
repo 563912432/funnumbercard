@@ -29,6 +29,10 @@ module.exports = {
       '@': resolve('src'),
     }
   },
+  externals: {
+    'jQuery': 'jQuery',
+    'polyvObject': 'polyvObject',
+  },
   module: {
     rules: [
       {
